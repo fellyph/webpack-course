@@ -1,4 +1,4 @@
-let footerElement = document.querySelector('footerbar')
+let footerElement = document.querySelector('.footerbar')
 
 function component() {
   let element = document.createElement('div');

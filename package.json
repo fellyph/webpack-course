@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/fellyph/webpack-course/issues"
   },
-  "homepage": "https://github.com/fellyph/webpack-course#readme"
+  "homepage": "https://github.com/fellyph/webpack-course#readme",
+  "devDependencies": {
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1"
+  }
 }
