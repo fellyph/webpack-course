@@ -1,0 +1,14 @@
+
+/*Medium devices (tablets, less than 992px) */
+@media (min-width: 576px) {
+  .course {
+    width: calc(50% - 20px);
+  }
+}
+
+/*Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) {
+  .course {
+    width: calc(33% - 20px);
+  }
+}
