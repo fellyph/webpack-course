@@ -1,3 +1,5 @@
+import './css/styles.css';
+
 const footerElement = document.querySelector('.footerbar');
 
 const addConteudo = () => {
