@@ -1,10 +1,10 @@
 let footerElement = document.querySelector('.footerbar')
 
-function component() {
+let addConteudo = () => {
   let element = document.createElement('div');
   element.innerHTML = 'Curso Webpack';
 
   return element;
 }
 
-footerElement.appendChild(component());
+footerElement.appendChild(addConteudo());

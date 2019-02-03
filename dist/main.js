@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("let footerElement = document.querySelector('.footerbar')\n\nfunction component() {\n  let element = document.createElement('div');\n  element.innerHTML = 'Curso webpack';\n\n  return element;\n}\n\nfooterElement.appendChild(component());\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("var footerElement = document.querySelector('.footerbar');\n\nvar addConteudo = function addConteudo() {\n  var element = document.createElement('div');\n  element.innerHTML = 'Curso Webpack';\n  return element;\n};\n\nfooterElement.appendChild(addConteudo());\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
