@@ -1,4 +1,4 @@
-import './css/styles.css';
+import './sass/main.scss';
 
 const footerElement = document.querySelector('.footerbar');
 
