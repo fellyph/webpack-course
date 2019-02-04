@@ -26,6 +26,12 @@ module.exports = {
           'sass-loader',
         ],
       },
+      {
+        test: /\.jpg$/,
+        use: [
+          'url-loader',
+        ],
+      },
     ],
   },
 };

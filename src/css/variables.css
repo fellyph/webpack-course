@@ -1,6 +1,7 @@
 /* variables */
 
 :root {
+  --logo-img: url('../../assets/img/imedia_logo.jpg');
   --menu-height: 100px;
   --primary-color: #F9C948;
   --secondary-color: #DF2E2D;

@@ -86,14 +86,69 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./src/sass/main.scss":
-/*!***********************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./src/sass/main.scss ***!
-  \***********************************************************************************************************/
+/***/ "./assets/img/imedia_logo.jpg":
+/*!************************************!*\
+  !*** ./assets/img/imedia_logo.jpg ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"data:image/jpeg;base64,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\"\n\n//# sourceURL=webpack:///./assets/img/imedia_logo.jpg?");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/css/common.css":
+/*!******************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/css/common.css ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \".footerbar {\\n  background: #DF2E2D;\\n  color: #FFF;\\n  padding: 1em;\\n  box-sizing: border-box;\\n  text-align: center; }\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/sass/main.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"/* common */\\n\\nbody {\\n  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;\\n  margin: 0;\\n  padding: 0;\\n}\\n\\n.container {\\n  max-width: 1024px;\\n  margin: 0 auto;\\n  padding: 0.5em;\\n}\\n\\n.responsiveImg {\\n  height: auto;\\n  max-width: 100%;\\n}\\n\\n.btn {\\n  background: var(--primary-color);\\n  border: 2px solid var(--primary-color);\\n  border-radius: 5px;\\n  box-sizing: border-box;\\n  color: white;\\n  display: inline-block;\\n  font-size: 16px;\\n  padding: 0.5em;\\n  text-decoration: none;\\n}\\n\\n.btn--like::before {\\n  content: '';\\n  background-image: url('/assets/img/heart.svg');\\n  background-size: 100%;\\n  background-repeat: no-repeat;\\n  background-position: center;\\n  display: inline-block;\\n  width: 20px;\\n  height: 18px;\\n  vertical-align: middle;\\n  margin-right: 5px\\n}\\n\\n.btn--like:hover {\\n  background: var(--c-white);\\n  color:  var(--primary-color);\\n}\\n\\n.btn--like:focus {\\n  outline: 2px solid var(--secondary-color);\\n}\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/css/common.css?./node_modules/css-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/css/footer.css":
+/*!******************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/css/footer.css ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"/* footer */ \\n.footerbar {\\n  background: var(--primary-color);\\n  color: var(--c-white);\\n  padding: 1em;\\n  box-sizing: border-box;\\n  text-align: center\\n}\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/css/footer.css?./node_modules/css-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/css/header.css":
+/*!******************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/css/header.css ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"/* header */\\n.topbar {\\n  text-align: center;\\n  background: var(--c-dark-gray);\\n  border-bottom: 2px solid var(--primary-color);\\n  margin-bottom: 2em;\\n}\\n\\n.topbar__title {\\n  color: var(--c-white);\\n  margin: 0.5em 0;\\n  font-size: 2em;\\n  text-transform: uppercase;\\n}\\n\\n.topbar__container {\\n  display: flex;\\n  width: 1000px;\\n  margin: 0 auto;\\n  max-width: 100%;\\n}\\n\\n.topbar__filter {\\n  background: var(--c-white);\\n  border: none;\\n  padding: 0.5em;\\n  font-size: 14px;\\n  font-weight: bold;\\n  border-radius: 5px;\\n  color: var(--primary-color);\\n}\\n\\n.topbar__filter--current {\\n  background: var(--primary-color);\\n  color: var(--c-white);\\n}\\n\\n.topbar__nav {\\n  margin: 1em 2em;\\n}\\n\\n.topbar__nav__list {\\n  margin: 0;\\n  padding: 0;\\n  display: flex;\\n}\\n\\n.topbar__nav__item {\\n  display: inline-block;\\n  flex: 1;\\n  height: var(--menu-height);\\n}\\n\\n.topbar__nav__item button {\\n  background: transparent;\\n  color: var(--c-white);\\n  display: flex;\\n  font-weight: 500;\\n  font-size: .8rem;\\n  padding: .5rem 1.5rem;\\n  position: relative;\\n  flex-direction: column;\\n  align-items: center;\\n  justify-content: center;\\n  text-align: center;\\n  border: none;\\n  transition: 0.3s;\\n  height: var(--menu-height);\\n  border-left: 2px solid var(--primary-color);\\n}\\n\\n.topbar__nav__item button:hover {\\n  color: var(--secondary-color);\\n  background: rgba(255, 255, 255, 0.9);\\n}\\n\\n.topbar__nav__item button:hover .topbar__nav__icon {\\n  stroke: var(--secondary-color);\\n}\\n\\n.topbar__nav__icon {\\n  padding: 1em;\\n  transition: 0.3s;\\n  fill: none;\\n  stroke: var(--c-white);\\n  stroke-linecap: round;\\n  stroke-linejoin: round;\\n}\\n\\n.logo {\\n  font-size: 16px;\\n  margin: 1em 0;\\n  background-image: var(--logo-img);\\n  background-repeat: no-repeat;\\n  background-size: contain;\\n  display: inline-block;\\n  overflow: hidden;\\n  text-indent: -9999px;\\n  height: var(--menu-height);\\n  width: var(--menu-height);\\n}\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/css/header.css?./node_modules/css-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/css/styles.css":
+/*!******************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/css/styles.css ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nexports.i(__webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!./variables.css */ \"./node_modules/css-loader/dist/cjs.js!./src/css/variables.css\"), \"\");\nexports.i(__webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!./common.css */ \"./node_modules/css-loader/dist/cjs.js!./src/css/common.css\"), \"\");\nexports.i(__webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!./header.css */ \"./node_modules/css-loader/dist/cjs.js!./src/css/header.css\"), \"\");\nexports.i(__webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!./footer.css */ \"./node_modules/css-loader/dist/cjs.js!./src/css/footer.css\"), \"\");\n\n// Module\nexports.push([module.i, \"\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/css/styles.css?./node_modules/css-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/css/variables.css":
+/*!*********************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/css/variables.css ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar urlEscape = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/url-escape.js */ \"./node_modules/css-loader/dist/runtime/url-escape.js\");\nvar ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(/*! ../../assets/img/imedia_logo.jpg */ \"./assets/img/imedia_logo.jpg\"));\n\n// Module\nexports.push([module.i, \"/* variables */\\n\\n:root {\\n  --logo-img: url(\" + ___CSS_LOADER_URL___0___ + \");\\n  --menu-height: 100px;\\n  --primary-color: #F9C948;\\n  --secondary-color: #DF2E2D;\\n  --c-white: #fff;\\n  --c-dark-gray: #262a2d;\\n  --c-light-gray: #DDD;\\n}\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/css/variables.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -106,6 +161,18 @@ eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-
 
 "use strict";
 eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return '@media ' + item[2] + '{' + content + '}';\n      } else {\n        return content;\n      }\n    }).join('');\n  }; // import a list of modules into the list\n\n\n  list.i = function (modules, mediaQuery) {\n    if (typeof modules === 'string') {\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    for (var i = 0; i < this.length; i++) {\n      var id = this[i][0];\n\n      if (id != null) {\n        alreadyImportedModules[id] = true;\n      }\n    }\n\n    for (i = 0; i < modules.length; i++) {\n      var item = modules[i]; // skip already imported module\n      // this implementation is not 100% perfect for weird media query combinations\n      // when a module is imported multiple times with different media queries.\n      // I hope this will never occur (Hey this way we have smaller bundles)\n\n      if (item[0] == null || !alreadyImportedModules[item[0]]) {\n        if (mediaQuery && !item[2]) {\n          item[2] = mediaQuery;\n        } else if (mediaQuery) {\n          item[2] = '(' + item[2] + ') and (' + mediaQuery + ')';\n        }\n\n        list.push(item);\n      }\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || '';\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */';\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n  return '/*# ' + data + ' */';\n}\n\n//# sourceURL=webpack:///./node_modules/css-loader/dist/runtime/api.js?");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/url-escape.js":
+/*!************************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/url-escape.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = function escape(url, needQuotes) {\n  if (typeof url !== 'string') {\n    return url;\n  } // If url is already wrapped in quotes, remove them\n\n\n  if (/^['\"].*['\"]$/.test(url)) {\n    url = url.slice(1, -1);\n  } // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n\n\n  if (/[\"'() \\t\\n]/.test(url) || needQuotes) {\n    return '\"' + url.replace(/\"/g, '\\\\\"').replace(/\\n/g, '\\\\n') + '\"';\n  }\n\n  return url;\n};\n\n//# sourceURL=webpack:///./node_modules/css-loader/dist/runtime/url-escape.js?");
 
 /***/ }),
 
@@ -131,6 +198,17 @@ eval("\n/**\n * When source maps are enabled, `style-loader` uses a link element
 
 /***/ }),
 
+/***/ "./src/css/styles.css":
+/*!****************************!*\
+  !*** ./src/css/styles.css ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!./styles.css */ \"./node_modules/css-loader/dist/cjs.js!./src/css/styles.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/css/styles.css?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -139,18 +217,7 @@ eval("\n/**\n * When source maps are enabled, `style-loader` uses a link element
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sass_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sass/main.scss */ \"./src/sass/main.scss\");\n/* harmony import */ var _sass_main_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_sass_main_scss__WEBPACK_IMPORTED_MODULE_0__);\n\nvar footerElement = document.querySelector('.footerbar');\n\nvar addConteudo = function addConteudo() {\n  var element = document.createElement('div');\n  element.innerHTML = 'Curso Webpack';\n  return element;\n};\n\nfooterElement.appendChild(addConteudo());\n\n//# sourceURL=webpack:///./src/index.js?");
-
-/***/ }),
-
-/***/ "./src/sass/main.scss":
-/*!****************************!*\
-  !*** ./src/sass/main.scss ***!
-  \****************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/lib/loader.js!./main.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./src/sass/main.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/sass/main.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/styles.css */ \"./src/css/styles.css\");\n/* harmony import */ var _css_styles_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_styles_css__WEBPACK_IMPORTED_MODULE_0__);\n\nvar footerElement = document.querySelector('.footerbar');\n\nvar addConteudo = function addConteudo() {\n  var element = document.createElement('div');\n  element.innerHTML = 'Curso Webpack';\n  return element;\n};\n\nfooterElement.appendChild(addConteudo());\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
