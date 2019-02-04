@@ -27,10 +27,14 @@ module.exports = {
         ],
       },
       {
-        test: /\.jpg$/,
-        use: [
-          'url-loader',
-        ],
+        test: /\.(gif|png|jpe?g)$/,
+        loader: 'url-loader',
+        options: {
+          limit: 100,
+          fallback: 'file-loader',
+          publicPath: '/dist/img',
+          outputPath: '/img',
+        },
       },
     ],
   },
