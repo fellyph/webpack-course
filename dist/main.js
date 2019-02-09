@@ -97,80 +97,14 @@ eval("module.exports = \"/dist/img/b1c3ddb07a8c578f19b00851cc5bd7d0.jpg\";\n\n//
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/css/common.css":
-/*!******************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/css/common.css ***!
-  \******************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/css/styles.css":
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src!./src/css/styles.css ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"/* common */\\n\\nbody {\\n  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;\\n  margin: 0;\\n  padding: 0;\\n}\\n\\n.container {\\n  max-width: 1024px;\\n  margin: 0 auto;\\n  padding: 0.5em;\\n}\\n\\n.responsiveImg {\\n  height: auto;\\n  max-width: 100%;\\n}\\n\\n.btn {\\n  background: var(--primary-color);\\n  border: 2px solid var(--primary-color);\\n  border-radius: 5px;\\n  box-sizing: border-box;\\n  color: white;\\n  display: inline-block;\\n  font-size: 16px;\\n  padding: 0.5em;\\n  text-decoration: none;\\n}\\n\\n.btn--like::before {\\n  content: '';\\n  background-image: url('/assets/img/heart.svg');\\n  background-size: 100%;\\n  background-repeat: no-repeat;\\n  background-position: center;\\n  display: inline-block;\\n  width: 20px;\\n  height: 18px;\\n  vertical-align: middle;\\n  margin-right: 5px\\n}\\n\\n.btn--like:hover {\\n  background: var(--c-white);\\n  color:  var(--primary-color);\\n}\\n\\n.btn--like:focus {\\n  outline: 2px solid var(--secondary-color);\\n}\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/css/common.css?./node_modules/css-loader/dist/cjs.js");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/css/course.css":
-/*!******************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/css/course.css ***!
-  \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"\\n/* course */\\n.course-list {\\n  display: flex;\\n  flex-wrap: wrap;\\n  justify-content:space-around;\\n}\\n\\n.course {\\n  margin-bottom: 1.5em;\\n  width: 100%;\\n}\\n  \\n.card {\\n  box-shadow: 1px 1px 1px var(--c-light-gray);\\n}\\n\\n.card__block {\\n  padding: 0.8em;\\n  position: relative;\\n}\\n\\n.card__date {\\n  background: var(--c-white);\\n  box-shadow: 1px 1px 1px var(--c-light-gray);\\n  color: var(--secondary-color);\\n  display: inline-block;\\n  font-weight: 500;\\n  text-align: center;\\n  width: 40px;\\n  height: 40px;\\n  padding: 1em;\\n  position: absolute;\\n  transform: translateY(-50%);\\n  right: 1em;\\n  top:0;\\n}\\n\\n.card__title {\\n  font-size: 1.7em;\\n  margin: 0;\\n}\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/css/course.css?./node_modules/css-loader/dist/cjs.js");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/css/footer.css":
-/*!******************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/css/footer.css ***!
-  \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"/* footer */ \\n.footerbar {\\n  background: var(--primary-color);\\n  color: var(--c-white);\\n  padding: 1em;\\n  box-sizing: border-box;\\n  text-align: center\\n}\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/css/footer.css?./node_modules/css-loader/dist/cjs.js");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/css/header.css":
-/*!******************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/css/header.css ***!
-  \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"/* header */\\n.topbar {\\n  text-align: center;\\n  background: var(--c-dark-gray);\\n  border-bottom: 2px solid var(--primary-color);\\n  margin-bottom: 2em;\\n}\\n\\n.topbar__title {\\n  color: var(--c-white);\\n  margin: 0.5em 0;\\n  font-size: 2em;\\n  text-transform: uppercase;\\n}\\n\\n.topbar__container {\\n  display: flex;\\n  width: 1000px;\\n  margin: 0 auto;\\n  max-width: 100%;\\n}\\n\\n.topbar__filter {\\n  background: var(--c-white);\\n  border: none;\\n  padding: 0.5em;\\n  font-size: 14px;\\n  font-weight: bold;\\n  border-radius: 5px;\\n  color: var(--primary-color);\\n}\\n\\n.topbar__filter--current {\\n  background: var(--primary-color);\\n  color: var(--c-white);\\n}\\n\\n.topbar__nav {\\n  margin: 1em 2em;\\n}\\n\\n.topbar__nav__list {\\n  margin: 0;\\n  padding: 0;\\n  display: flex;\\n}\\n\\n.topbar__nav__item {\\n  display: inline-block;\\n  flex: 1;\\n  height: var(--menu-height);\\n}\\n\\n.topbar__nav__item button {\\n  background: transparent;\\n  color: var(--c-white);\\n  display: flex;\\n  font-weight: 500;\\n  font-size: .8rem;\\n  padding: .5rem 1.5rem;\\n  position: relative;\\n  flex-direction: column;\\n  align-items: center;\\n  justify-content: center;\\n  text-align: center;\\n  border: none;\\n  transition: 0.3s;\\n  height: var(--menu-height);\\n  border-left: 2px solid var(--primary-color);\\n}\\n\\n.topbar__nav__item button:hover {\\n  color: var(--secondary-color);\\n  background: rgba(255, 255, 255, 0.9);\\n}\\n\\n.topbar__nav__item button:hover .topbar__nav__icon {\\n  stroke: var(--secondary-color);\\n}\\n\\n.topbar__nav__icon {\\n  padding: 1em;\\n  transition: 0.3s;\\n  fill: none;\\n  stroke: var(--c-white);\\n  stroke-linecap: round;\\n  stroke-linejoin: round;\\n}\\n\\n.logo {\\n  font-size: 16px;\\n  margin: 1em 0;\\n  background-image: var(--logo-img);\\n  background-repeat: no-repeat;\\n  background-size: contain;\\n  display: inline-block;\\n  overflow: hidden;\\n  text-indent: -9999px;\\n  height: var(--menu-height);\\n  width: var(--menu-height);\\n}\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/css/header.css?./node_modules/css-loader/dist/cjs.js");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/css/mediaqueries.css":
-/*!************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/css/mediaqueries.css ***!
-  \************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"\\n/*Medium devices (tablets, less than 992px) */\\n@media (min-width: 576px) {\\n  .course {\\n    width: calc(50% - 20px);\\n  }\\n}\\n\\n/*Large devices (desktops, less than 1200px) */\\n@media (min-width: 992px) {\\n  .course {\\n    width: calc(33% - 20px);\\n  }\\n}\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/css/mediaqueries.css?./node_modules/css-loader/dist/cjs.js");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/css/styles.css":
-/*!******************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/css/styles.css ***!
-  \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nexports.i(__webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!./variables.css */ \"./node_modules/css-loader/dist/cjs.js!./src/css/variables.css\"), \"\");\nexports.i(__webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!./common.css */ \"./node_modules/css-loader/dist/cjs.js!./src/css/common.css\"), \"\");\nexports.i(__webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!./course.css */ \"./node_modules/css-loader/dist/cjs.js!./src/css/course.css\"), \"\");\nexports.i(__webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!./header.css */ \"./node_modules/css-loader/dist/cjs.js!./src/css/header.css\"), \"\");\nexports.i(__webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!./footer.css */ \"./node_modules/css-loader/dist/cjs.js!./src/css/footer.css\"), \"\");\nexports.i(__webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!./mediaqueries.css */ \"./node_modules/css-loader/dist/cjs.js!./src/css/mediaqueries.css\"), \"\");\n\n// Module\nexports.push([module.i, \"\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/css/styles.css?./node_modules/css-loader/dist/cjs.js");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/css/variables.css":
-/*!*********************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/css/variables.css ***!
-  \*********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar urlEscape = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/url-escape.js */ \"./node_modules/css-loader/dist/runtime/url-escape.js\");\nvar ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(/*! ../../assets/img/imedia_logo.jpg */ \"./assets/img/imedia_logo.jpg\"));\n\n// Module\nexports.push([module.i, \"/* variables */\\n\\n:root {\\n  --logo-img: url(\" + ___CSS_LOADER_URL___0___ + \");\\n  --menu-height: 100px;\\n  --primary-color: #F9C948;\\n  --secondary-color: #DF2E2D;\\n  --c-white: #fff;\\n  --c-dark-gray: #262a2d;\\n  --c-light-gray: #DDD;\\n}\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/css/variables.css?./node_modules/css-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar urlEscape = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/url-escape.js */ \"./node_modules/css-loader/dist/runtime/url-escape.js\");\nvar ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(/*! ../../assets/img/imedia_logo.jpg */ \"./assets/img/imedia_logo.jpg\"));\n\n// Module\nexports.push([module.i, \"/* variables */\\n\\n:root {\\n  --logo-img: url(\" + ___CSS_LOADER_URL___0___ + \");\\n  --menu-height: 100px;\\n  --primary-color: #F9C948;\\n  --secondary-color: #DF2E2D;\\n  --c-white: #fff;\\n  --c-dark-gray: #262a2d;\\n  --c-light-gray: #DDD;\\n}\\n\\n/* common */\\n\\nbody {\\n  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;\\n  margin: 0;\\n  padding: 0;\\n}\\n\\n.container {\\n  max-width: 1024px;\\n  margin: 0 auto;\\n  padding: 0.5em;\\n}\\n\\n.responsiveImg {\\n  height: auto;\\n  max-width: 100%;\\n}\\n\\n.btn {\\n  background: var(--primary-color);\\n  border: 2px solid var(--primary-color);\\n  border-radius: 5px;\\n  box-sizing: border-box;\\n  color: white;\\n  display: inline-block;\\n  font-size: 16px;\\n  padding: 0.5em;\\n  text-decoration: none;\\n}\\n\\n.btn--like::before {\\n  content: '';\\n  background-image: url('/assets/img/heart.svg');\\n  background-size: 100%;\\n  background-repeat: no-repeat;\\n  background-position: center;\\n  display: inline-block;\\n  width: 20px;\\n  height: 18px;\\n  vertical-align: middle;\\n  margin-right: 5px\\n}\\n\\n.btn--like:hover {\\n  background: var(--c-white);\\n  color:  var(--primary-color);\\n}\\n\\n.btn--like:focus {\\n  outline: 2px solid var(--secondary-color);\\n}\\n\\n/* course */\\n\\n.course-list {\\n  display: flex;\\n  flex-wrap: wrap;\\n  justify-content:space-around;\\n}\\n\\n.course {\\n  margin-bottom: 1.5em;\\n  width: 100%;\\n}\\n\\n.card {\\n  box-shadow: 1px 1px 1px var(--c-light-gray);\\n}\\n\\n.card__block {\\n  padding: 0.8em;\\n  position: relative;\\n}\\n\\n.card__date {\\n  background: var(--c-white);\\n  box-shadow: 1px 1px 1px var(--c-light-gray);\\n  color: var(--secondary-color);\\n  display: inline-block;\\n  font-weight: 500;\\n  text-align: center;\\n  width: 40px;\\n  height: 40px;\\n  padding: 1em;\\n  position: absolute;\\n  transform: translateY(-50%);\\n  right: 1em;\\n  top:0;\\n}\\n\\n.card__title {\\n  font-size: 1.7em;\\n  margin: 0;\\n}\\n\\n/* header */\\n\\n.topbar {\\n  text-align: center;\\n  background: var(--c-dark-gray);\\n  border-bottom: 2px solid var(--primary-color);\\n  margin-bottom: 2em;\\n}\\n\\n.topbar__title {\\n  color: var(--c-white);\\n  margin: 0.5em 0;\\n  font-size: 2em;\\n  text-transform: uppercase;\\n}\\n\\n.topbar__container {\\n  display: flex;\\n  width: 1000px;\\n  margin: 0 auto;\\n  max-width: 100%;\\n}\\n\\n.topbar__filter {\\n  background: var(--c-white);\\n  border: none;\\n  padding: 0.5em;\\n  font-size: 14px;\\n  font-weight: bold;\\n  border-radius: 5px;\\n  color: var(--primary-color);\\n}\\n\\n.topbar__filter--current {\\n  background: var(--primary-color);\\n  color: var(--c-white);\\n}\\n\\n.topbar__nav {\\n  margin: 1em 2em;\\n}\\n\\n.topbar__nav__list {\\n  margin: 0;\\n  padding: 0;\\n  display: flex;\\n}\\n\\n.topbar__nav__item {\\n  display: inline-block;\\n  flex: 1;\\n  height: var(--menu-height);\\n}\\n\\n.topbar__nav__item button {\\n  background: transparent;\\n  color: var(--c-white);\\n  display: flex;\\n  font-weight: 500;\\n  font-size: .8rem;\\n  padding: .5rem 1.5rem;\\n  position: relative;\\n  flex-direction: column;\\n  align-items: center;\\n  justify-content: center;\\n  text-align: center;\\n  border: none;\\n  transition: 0.3s;\\n  height: var(--menu-height);\\n  border-left: 2px solid var(--primary-color);\\n}\\n\\n.topbar__nav__item button:hover {\\n  color: var(--secondary-color);\\n  background: rgba(255, 255, 255, 0.9);\\n}\\n\\n.topbar__nav__item button:hover .topbar__nav__icon {\\n  stroke: var(--secondary-color);\\n}\\n\\n.topbar__nav__icon {\\n  padding: 1em;\\n  transition: 0.3s;\\n  fill: none;\\n  stroke: var(--c-white);\\n  stroke-linecap: round;\\n  stroke-linejoin: round;\\n}\\n\\n.logo {\\n  font-size: 16px;\\n  margin: 1em 0;\\n  background-image: var(--logo-img);\\n  background-repeat: no-repeat;\\n  background-size: contain;\\n  display: inline-block;\\n  overflow: hidden;\\n  text-indent: -9999px;\\n  height: var(--menu-height);\\n  width: var(--menu-height);\\n}\\n\\n/* footer */\\n\\n.footerbar {\\n  background: var(--primary-color);\\n  color: var(--c-white);\\n  padding: 1em;\\n  box-sizing: border-box;\\n  text-align: center\\n}\\n\\n/*Medium devices (tablets, less than 992px) */\\n\\n@media (min-width: 576px) {\\n  .course {\\n    width: calc(50% - 20px);\\n  }\\n}\\n\\n/*Large devices (desktops, less than 1200px) */\\n\\n@media (min-width: 992px) {\\n  .course {\\n    width: calc(33% - 20px);\\n  }\\n}\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/css/styles.css?./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src");
 
 /***/ }),
 
@@ -227,7 +161,7 @@ eval("\n/**\n * When source maps are enabled, `style-loader` uses a link element
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!./styles.css */ \"./node_modules/css-loader/dist/cjs.js!./src/css/styles.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/css/styles.css?");
+eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!../../node_modules/postcss-loader/src!./styles.css */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/css/styles.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/css/styles.css?");
 
 /***/ }),
 
