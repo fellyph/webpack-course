@@ -3,9 +3,9 @@
 :root {
   --logo-img: url('../../assets/img/imedia_logo.jpg');
   --menu-height: 100px;
-  --primary-color: #F9C948;
-  --secondary-color: #DF2E2D;
+  --primary-color: #f9c948;
+  --secondary-color: #df2e2d;
   --c-white: #fff;
   --c-dark-gray: #262a2d;
-  --c-light-gray: #DDD;
+  --c-light-gray: #ddd;
 }

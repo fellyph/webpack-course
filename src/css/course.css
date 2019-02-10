@@ -1,16 +1,16 @@
-
 /* course */
+
 .course-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content:space-around;
+  justify-content: space-around;
 }
 
 .course {
   margin-bottom: 1.5em;
   width: 100%;
 }
-  
+
 .card {
   box-shadow: 1px 1px 1px var(--c-light-gray);
 }
@@ -33,7 +33,7 @@
   position: absolute;
   transform: translateY(-50%);
   right: 1em;
-  top:0;
+  top: 0;
 }
 
 .card__title {
