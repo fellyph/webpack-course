@@ -46,4 +46,7 @@ module.exports = {
       },
     ],
   },
+  devServer: {
+    publicPath: path.resolve(__dirname, '/dist/'),
+  },
 };
