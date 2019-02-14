@@ -6,7 +6,7 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    publicPath: path.resolve(__dirname, '/dist/'),
+    publicPath: '/',
     filename: 'main.js',
   },
   module: {
@@ -41,20 +41,20 @@ module.exports = {
         options: {
           limit: 100,
           fallback: 'file-loader',
-          publicPath: '/dist/img',
+          publicPath: '/img',
           outputPath: '/img',
         },
       },
     ],
   },
   devServer: {
-    publicPath: path.resolve(__dirname, '/dist/'),
+    publicPath: '/',
+    contentBase: path.resolve(__dirname, 'dist'),
   },
   plugins: [
     new HtmlWebpackPlugin({
       title: 'iMedia Cursos Brasil',
       template: './src/index.html',
-      filename: 'home.html',
       favicon: false,
     }),
   ],
