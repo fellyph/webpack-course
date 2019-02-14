@@ -52,7 +52,10 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Meu primeiro projeto webpack',
+      title: 'iMedia Cursos Brasil',
+      template: './src/index.html',
+      filename: 'home.html',
+      favicon: false,
     }),
   ],
 };
