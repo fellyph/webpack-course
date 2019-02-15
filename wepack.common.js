@@ -8,6 +8,25 @@ module.exports = {
     publicPath: '/',
     filename: 'main.js',
   },
+  module: {
+    rules: [
+      {
+        test: /\.m?js$/,
+        exclude: /node_modules/,
+        use: ['babel-loader', 'eslint-loader'],
+      },
+      {
+        test: /\.(woff(2)?|ttf|eot|svg|gif|png|jpe?g)$/,
+        loader: 'url-loader',
+        options: {
+          limit: 100,
+          fallback: 'file-loader',
+          publicPath: '/img',
+          outputPath: '/img',
+        },
+      },
+    ],
+  },
   plugins: [
     new HtmlWebpackPlugin({
       title: 'iMedia Cursos',
