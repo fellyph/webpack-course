@@ -27,6 +27,10 @@ module.exports = {
       },
     ],
   },
+  devServer: {
+    publicPath: '/',
+    contentBase: path.resolve(__dirname, 'dist'),
+  },
   plugins: [
     new HtmlWebpackPlugin({
       title: 'iMedia Cursos',
