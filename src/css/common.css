@@ -31,7 +31,7 @@ body {
 
 .btn--like::before {
   content: '';
-  background-image: url('/assets/img/heart.svg');
+  background-image: var(--heart-icon);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
