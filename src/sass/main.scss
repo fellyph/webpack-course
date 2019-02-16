@@ -1,0 +1,11 @@
+$primary-color: #f9c948;
+$secondary-color: #df2e2d;
+$c-white: #fff;
+
+.footerbar {
+  background: $secondary-color;
+  color: $c-white;
+  padding: 1em;
+  box-sizing: border-box;
+  text-align: center;
+}

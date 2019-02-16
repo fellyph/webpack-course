@@ -1,0 +1,52 @@
+/* common */
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0.5em;
+}
+
+.responsiveImg {
+  height: auto;
+  max-width: 100%;
+}
+
+.btn {
+  background: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: white;
+  display: inline-block;
+  font-size: 16px;
+  padding: 0.5em;
+  text-decoration: none;
+}
+
+.btn--like::before {
+  content: '';
+  background-image: var(--heart-icon);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  width: 20px;
+  height: 18px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.btn--like:hover {
+  background: var(--c-white);
+  color: var(--primary-color);
+}
+
+.btn--like:focus {
+  outline: 2px solid var(--secondary-color);
+}

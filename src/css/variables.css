@@ -1,0 +1,12 @@
+/* variables */
+
+:root {
+  --logo-img: url('../../assets/img/imedia_logo.jpg');
+  --heart-icon: url('../../assets/img/heart.svg');
+  --menu-height: 100px;
+  --primary-color: #f9c948;
+  --secondary-color: #df2e2d;
+  --c-white: #fff;
+  --c-dark-gray: #262a2d;
+  --c-light-gray: #ddd;
+}
